@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/primary"
     android:gravity="center" android:orientation="vertical" android:padding="16dp">
 
 
@@ -10,7 +11,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Are you sure?"
-            android:textColor="@android:color/black"
+            android:textColor="@color/primaryDark"
             android:textSize="18sp"
             android:textStyle="bold"/>
 
@@ -21,8 +22,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:gravity="center"
+            android:textColor="@color/primaryDark"
             android:text="This will stop your workout. You\'ve come this far, are you sure you want to quit?"
-            android:textColor="#212121"
             android:textSize="16sp"/>
 
         <LinearLayout
@@ -37,11 +38,11 @@
                 android:layout_height="40dp"
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
-                android:background="@color/primary"
+                android:backgroundTint="@color/primaryDark"
                 android:gravity="center"
                 android:padding="8dp"
                 android:text="YES"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/primaryLLight"
                 android:textSize="16sp"/>
 
             <Button
@@ -50,11 +51,11 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
-                android:background="@color/primary"
+                android:backgroundTint="@color/primaryDark"
                 android:gravity="center"
                 android:padding="8dp"
                 android:text="NO"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/primaryLLight"
                 android:textSize="16sp"/>
 
         </LinearLayout>

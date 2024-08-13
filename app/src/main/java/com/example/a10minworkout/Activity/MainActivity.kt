@@ -31,5 +31,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, HistoryActivity::class.java)
             startActivity(intent)
         }
+
+
+        binding?.flTrain?.setOnClickListener {
+            val intent = Intent(this, TrainerActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

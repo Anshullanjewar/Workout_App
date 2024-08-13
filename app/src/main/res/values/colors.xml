@@ -3,17 +3,19 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-<!--    <color name="primary">#F44336</color>-->
+<!--    <color name="transparent">#F44336</color>-->
 <!--    <color name="primaryDark">#6C0606</color>-->
 <!--    <color name="primaryLight">#E36F6F</color>-->
 <!--    <color name="primaryLLight">#E3B1B1</color>-->
 
     <color name="toolbar_color_normal">#404040</color>
 
-    <color name="primary">#000000</color>
-    <color name="primaryDark">#FFD700</color>
-    <color name="primaryLLight">#404040</color>
-    <color name="primaryLight">#808080</color>
+    <color name="primary">#45474B</color>
+    <color name="primaryDark">#F4CE14</color>
+    <color name="primaryLLight">#495E57</color>
+    <color name="primaryLight">#F5F7F8</color>
+    <color name="primaryDarkTrp">#68F4CE14</color>
+        <color name="transparent">#00F44336</color>
 
 
 </resources>

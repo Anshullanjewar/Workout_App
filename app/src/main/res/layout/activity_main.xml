@@ -76,7 +76,7 @@
         android:layout_height="70dp"
         android:background="@drawable/item_circula_accent_background"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/flTrain"
         app:layout_constraintStart_toEndOf="@+id/flBmi"
         android:layout_gravity = "center"
         android:gravity = "center"
@@ -102,4 +102,37 @@
         app:layout_constraintEnd_toEndOf="@+id/flHistory"
         app:layout_constraintStart_toStartOf="@+id/flHistory"
         app:layout_constraintTop_toBottomOf="@id/flBmi" />
+
+    <FrameLayout
+        android:id="@+id/flTrain"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/item_circula_accent_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/flHistory"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        app:layout_constraintTop_toBottomOf="@+id/flStart">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/coach"/>
+
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="AI-Trainer"
+        android:textColor="@color/primaryLLight"
+        android:textSize="@dimen/default_button_text_size"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="@+id/flTrain"
+        app:layout_constraintStart_toStartOf="@+id/flTrain"
+        app:layout_constraintTop_toBottomOf="@id/flTrain" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

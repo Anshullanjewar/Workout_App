@@ -85,11 +85,10 @@ class TrainerActivity : AppCompatActivity() {
         } catch (e: JSONException) {
             e.printStackTrace()
         }
-//            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
         val body: RequestBody = RequestBody.create(JSON,jsonBody.toString())
         val request: Request=Request.Builder()
             .url("https://api.openai.com/v1/completions")
-            .header("Authorization", "Bearer TOKEN")
+            .header("Authorization", "Bearer API")
             .post(body)
             .build()
 

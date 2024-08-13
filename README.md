@@ -52,7 +52,7 @@
 * **Ai Trainer:** AI trainer powered by ChatGPT for personalized guidance and recommendation.
 * **Track Health:**  Track your health by calculating your BMI.
 * **Reward-based System:** UI is designed in such a way that daily exercising feels rewarding.
-* * **History:** Track your daily workout and build it as part of a routine.
+* **History:** Track your daily workout and build it as part of a routine.
 
 
 

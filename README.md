@@ -39,9 +39,9 @@
 <table>
   <tr>
     <td><img src="https://github.com/Anshullanjewar/Workout_App/blob/master/img/Screenshot_20240813_193320.png" width="220"></td>
+     <td><img src="https://github.com/Anshullanjewar/Workout_App/blob/master/img/Screenshot_20240628_131114.png" width="220"></td>
     <td><img src="https://github.com/Anshullanjewar/Workout_App/blob/master/img/Screenshot_20240628_131147.png" width="220"></td>
-    <td><img src="https://github.com/Anshullanjewar/Workout_App/blob/master/img/Screenshot_20240628_131114.png" width="220"></td>
-    <td><img src="https://github.com/Anshullanjewar/Workout_App/blob/master/img/Screenshot_20240628_131044.png" width="220"></td>
+    <td><img src="https://github.com/Anshullanjewar/Workout_App/blob/master/img/Screenshot_20240628_132336.png" width="220"></td>
   </tr>
  </table>
 10 Min Workout is an Android workout application that helps users to get fit with daily quick workouts. It has an Ai trainer that helps users clear their doubts about their diet, exercise, or equipment. 
